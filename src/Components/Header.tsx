@@ -71,7 +71,8 @@ function Header() {
 
           {/* Desktop Info Section */}
           <div className="hidden sm:block text-sm text-gray-500">
-            Powered by PLN Tariffs
+            <p>Created by</p>
+            <p className=" font-semibold text-blue-400">Bani Gondang</p>
           </div>
         </div>
       </div>

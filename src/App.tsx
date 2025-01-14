@@ -4,6 +4,8 @@ import Header from './Components/Header'
 import PLNCalculator from './Pages/PLNCalculator'
 import LightQuantity from './Pages/LightQuantity';
 import LumensLux from './Pages/LumenLux';
+import Footer from './Components/Footer';
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
         <Route path="/light-quantity" element={<LightQuantity />} />
         <Route path="/lumens-lux" element={<LumensLux/>} />
       </Routes>
+      <Footer/>
     </>
   )
 }
