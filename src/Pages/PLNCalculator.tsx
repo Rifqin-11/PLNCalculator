@@ -232,9 +232,14 @@ function PLNCalculator() {
                   />
                   <button
                     onClick={() => removeDevice(device.id)}
-                    className="p-2 text-red-600 hover:text-red-800"
-                  >
-                    <Trash2 className="w-5 h-5" />
+                    className="py-2 text-red-600 hover:text-red-800 text-center align-middle"
+                  > 
+                    <span className="inline-block align-middle">
+                      <Trash2 className="w-5 h-5" />
+                    </span>
+                    <span className="inline-block align-middle ml-2">
+                      Hapus Perangkat
+                    </span>
                   </button>
                 </div>
               ))}
