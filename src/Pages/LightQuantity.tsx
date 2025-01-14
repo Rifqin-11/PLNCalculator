@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calculator, Info } from 'lucide-react';
+import { Calculator, Info, Lightbulb } from 'lucide-react';
 
 interface RoomType {
   name: string;
@@ -124,6 +124,10 @@ function LightQuantity() {
         {/* Calculator Card */}
         <div className="bg-white rounded-lg shadow-md p-6">
           <div className="space-y-6">
+            <div className="flex items-center gap-2 mb-4">
+                <Calculator className="w-6 h-6 text-blue-500" />
+                <h2 className="text-lg font-semibold">Kalkulator</h2>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {/* Room Dimensions */}
               <div>
@@ -225,8 +229,8 @@ function LightQuantity() {
         
         <div className="bg-white rounded-lg shadow-md p-6">
           <div className="flex items-center gap-2 mb-4">
-            <Info className="w-6 h-6 text-blue-500" />
-            <h2 className="text-xl font-semibold">Tingkat Pencahyaan dan Renderasi Warna</h2>
+            <Lightbulb className="w-6 h-6 text-blue-500" />
+            <h2 className="text-xl font-semibold">Tingkat Pencahayaan dan Renderasi Warna</h2>
           </div>
           <h3 className="text-lg font-semibold mb-4">Rumah Tangga</h3>
           <div className="overflow-x-auto">

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calculator, Info } from 'lucide-react';
+import { BookOpen, Calculator, Info } from 'lucide-react';
 
 function LumensLux() {
   const [beamAngle, setBeamAngle] = useState<number>(0);
@@ -43,6 +43,10 @@ function LumensLux() {
         {/* Calculator Card */}
         <div className="bg-white rounded-lg shadow-md p-6">
           <div className="space-y-6">
+            <div className="flex items-center gap-2 mb-4">
+                            <Calculator className="w-6 h-6 text-blue-500" />
+                            <h2 className="text-lg font-semibold">Kalkulator</h2>
+                        </div>
             {/* Inputs */}
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -114,7 +118,10 @@ function LumensLux() {
 
         {/* Reference Card */}
         <div className="bg-white rounded-lg shadow-md p-6">
-          <h3 className="text-lg font-semibold mb-4">Referensi Tingkat Pencahayaan Umum</h3>
+          <div className="flex items-center gap-2 mb-4">
+              <BookOpen className="w-6 h-6 text-blue-500" />
+              <h2 className="text-lg font-semibold">Referensi Tingkat Pencahayaan Umum</h2>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <h4 className="font-medium mb-2">Pencahayaan Dalam Ruangan</h4>

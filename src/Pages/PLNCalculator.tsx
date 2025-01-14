@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Info, Plus, Trash2, Calculator } from 'lucide-react';
+import { Info, Plus, Trash2, Calculator, Cable } from 'lucide-react';
 
 interface Device {
   id: string;
@@ -165,6 +165,10 @@ function PLNCalculator() {
         {/* Calculator Section */}
         <div className="bg-white rounded-lg shadow-md p-6">
           <div className="space-y-6">
+            <div className="flex items-center gap-2 mb-4">
+              <Calculator className="w-6 h-6 text-blue-500" />
+              <h2 className="text-lg font-semibold">Kalkulator</h2>
+            </div>
             {/* Tariff Selection */}
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-2">Golongan Tarif</label>
@@ -303,7 +307,10 @@ function PLNCalculator() {
 
         {/* Common Devices Reference */}
         <div className="bg-white rounded-lg shadow-md p-6">
-          <h3 className="text-lg font-semibold mb-4">Referensi Daya Perangkat Rumah Tangga</h3>
+          <div className="flex items-center gap-2 mb-4">
+            <Cable className="w-6 h-6 text-blue-500" />
+            <h2 className="text-lg font-semibold">Referensi Daya Perangkat Rumah Tangga</h2>
+          </div>
           <div className="overflow-x-auto">
             <table className="min-w-full divide-y divide-gray-200">
               <thead className="bg-gray-50">
