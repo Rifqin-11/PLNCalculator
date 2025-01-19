@@ -60,13 +60,13 @@ Follow these steps to run the project locally:
 ### 🖼️ Screenshots
 
 #### Electricity Cost Calculator
-![Electricity Cost Calculator](https://via.placeholder.com/800x400?text=Electricity+Cost+Calculator)
+![Electricity Cost Calculator](./Pictures/Preview1.png)
 
 #### Lighting Requirement Calculator
-![Lighting Calculator](https://via.placeholder.com/800x400?text=Lighting+Requirement+Calculator)
+![Lighting Calculator](./Pictures/Preview2.png)
 
 #### Lumens to Lux Converter
-![Lumens to Lux](https://via.placeholder.com/800x400?text=Lumens+to+Lux+Converter)
+![Lumens to Lux](./Pictures/Preview3.png)
 
 ---
 
