@@ -1,5 +1,7 @@
 # PLN Calculator
 
+![React](https://img.shields.io/badge/React.js-%5E18.0.0-blue?logo=react) ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-%5E3.0-green?logo=tailwind-css) 
+
 Welcome to **PLN Calculator**! This project is a comprehensive tool designed to help users calculate electricity costs and lighting requirements based on Indonesian PLN standards. The web app offers a simple and intuitive interface for daily, monthly, and yearly electricity cost calculations, as well as lighting calculations for rooms and conversions between lumens and lux.
 
 ### 🌟 Features
