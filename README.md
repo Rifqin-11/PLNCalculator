@@ -1,7 +1,5 @@
 # PLN Calculator
 
-![PLN Calculator](https://pln-calculator.vercel.app/favicon.ico)
-
 Welcome to **PLN Calculator**! This project is a comprehensive tool designed to help users calculate electricity costs and lighting requirements based on Indonesian PLN standards. The web app offers a simple and intuitive interface for daily, monthly, and yearly electricity cost calculations, as well as lighting calculations for rooms and conversions between lumens and lux.
 
 ### 🌟 Features
@@ -90,21 +88,6 @@ Contributions are always welcome! If you have any suggestions or ideas, feel fre
    git push origin feature-name
    ```
 5. Open a Pull Request.
-
----
-
-### 📜 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-### 📧 Contact
-
-Have questions? Feel free to reach out:
-
-- **Email**: your.email@example.com
-- **GitHub**: [yourusername](https://github.com/yourusername)
 
 ---
 
